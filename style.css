@@ -82,3 +82,30 @@ nav {
   border: 3px solid wheat;
   border-radius: 300px;
 }
+/* ---------
+section-2 styles 
+-----------*/
+.section-2 {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 18%;
+}
+.box {
+  border: 2px solid peachpuff;
+  width: 1200px;
+  text-align: center;
+}
+.box img {
+  padding: 2%;
+}
+/* ----------
+section-3 styles 
+------------------*/
+.section-3 h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 6%;
+  font-weight: 600;
+  color: #3a3a3a;
+}
