@@ -1,7 +1,7 @@
 /* font awesome */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,700;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,700;1,500&family=Roboto:ital,wght@1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,700;1,500&family=Roboto:ital,wght@1,700&display=swap");
 /* ----------
   header styles 
 ----------------*/
@@ -124,31 +124,31 @@ section-3 styles
   font-weight: 600;
   font-size: 30px;
   width: 400px;
-  color: color: #18191F;
+  color: #18191f;
 }
-.collection-detail h3{
-  font-family: 'Inter', sans-serif;
+.collection-detail h3 {
+  font-family: "Inter", sans-serif;
   font-size: 24px;
-  color: rgba(0, 0, 0, 0.87)
+  color: rgba(0, 0, 0, 0.87);
 }
-.fa-star.filled{
-  color: #FB8200;;
+.fa-star.filled {
+  color: #fb8200;
 }
-.fa-star.empty{
-  color: gray
+.fa-star.empty {
+  color: gray;
 }
-.collection-detail p{
-  font-family: 'Inter', sans-serif;
+.collection-detail p {
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 20px;
   color: #787885;
   width: 300px;
 }
-.collection-detail span{
-  font-family: 'Roboto', sans-serif;
+.collection-detail span {
+  font-family: "Roboto", sans-serif;
   color: #164f72;
 }
-.section-3 h1{
+.section-3 h1 {
   width: 200px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -165,18 +165,19 @@ section styles end
 /* --------
  footer styles 
 ----------*/
-footer{
+footer {
   background-color: rgb(1, 1, 10);
   color: whitesmoke;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-footer h1{
+footer h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
-footer p{
+footer p {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
+/* footer styles end */
