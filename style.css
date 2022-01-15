@@ -157,6 +157,10 @@ section-3 styles
   margin-left: 225%;
   margin-bottom: 20%;
 }
+.section-3 h1 a {
+  text-decoration: none;
+  color: rgba(224, 44, 109, 0.87);
+}
 
 /* -----------
 section styles end 
