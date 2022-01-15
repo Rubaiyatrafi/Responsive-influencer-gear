@@ -1,7 +1,10 @@
+/* font awesome */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,700;1,500&family=Roboto:ital,wght@1,700&display=swap');
 /* ----------
   header styles 
 ----------------*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,500&display=swap");
 nav {
   display: flex;
   justify-content: space-between;
@@ -101,11 +104,55 @@ section-2 styles
 /* ----------
 section-3 styles 
 ------------------*/
-.section-3 h1 {
+.header {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   text-align: center;
   margin-top: 6%;
   font-weight: 600;
   color: #3a3a3a;
+}
+.section-3,
+.colletions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 10%;
+  margin-left: 9%;
+}
+.collection-detail h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  width: 400px;
+  color: color: #18191F;
+}
+.collection-detail h3{
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87)
+}
+.fa-star.filled{
+  color: #FB8200;;
+}
+.fa-star.empty{
+  color: gray
+}
+.collection-detail p{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #787885;
+  width: 300px;
+}
+.collection-detail span{
+  font-family: 'Roboto', sans-serif;
+  color: #164f72;
+}
+.section-3 h1{
+  width: 200px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: rgba(224, 44, 109, 0.87);
+  margin-left: 225%;
 }
