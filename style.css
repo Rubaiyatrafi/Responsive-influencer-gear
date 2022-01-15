@@ -200,6 +200,10 @@ footer p {
     flex-direction: column;
     grid-template-columns: repeat(1, 1fr);
   }
+  footer {
+    width: 100%;
+    justify-content: center;
+  }
 }
 /* Tablet devices */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
